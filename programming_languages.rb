@@ -4,7 +4,7 @@ def reformat_languages(languages)
       language.each do |type, value|
         languages_reformatted[type] = value
         languages_reformatted[type][:style] = []
-        languages_reformatted[type][:style] = style
+        languages_reformatted[type][:style] << style
     end
   end
   languages_reformatted
