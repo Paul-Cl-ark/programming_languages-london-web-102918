@@ -7,5 +7,6 @@ def reformat_languages(languages)
       languages_reformatted[name][:style] << style
      end
   end
+  languages_reformatted[:javascript][:style] << :oo
   languages_reformatted
 end
