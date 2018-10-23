@@ -10,3 +10,5 @@ def reformat_languages(languages)
   languages_reformatted[:javascript][:style] << :oo
   languages_reformatted
 end
+
+#there must be a better way to add :oo to the javascript array
