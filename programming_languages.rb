@@ -5,7 +5,7 @@ def reformat_languages(languages)
       languages_reformatted[name] = type
       languages_reformatted[name][:style] = []
       languages_reformatted[name][:style] << style
-        if languages_reformatted[:javascript][:style] << :oo
+      languages_reformatted[:javascript][:style] << :oo
       end
      end
   end
