@@ -6,6 +6,7 @@ def reformat_languages(languages)
         languages_reformatted[name] = {type => value, :style => []}
         #languages_reformatted[name][:style] = []
         languages_reformatted[name][:style] << style
+      end
     end
   end
   languages_reformatted
